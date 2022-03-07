@@ -1,0 +1,102 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url("../assets/images/login-background.png") center;
+    justify-content: center;
+}
+
+.form-signin {
+    /* width: 100%;
+  max-width: 330px; */
+    padding: 25px;
+    margin: auto;
+}
+
+.form-floating > .form-control {
+    padding: 0.5rem;
+    height: calc(3rem + 2px);
+}
+
+.form-floating > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    /* border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; */
+    width: 430px;
+    border-radius: 5px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    /* border-top-left-radius: 0;
+  border-top-right-radius: 0; */
+    width: 430px;
+    border-radius: 5px;
+}
+.marg-top-10 {
+    margin-top: -8px;
+}
+.mtn_bg_blue {
+    background-color: #006690;
+}
+/* .mtn_bg_yellow{
+    background-color: #ffcc00;
+} */
+
+#form {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 5px #000;
+    border-radius: 10px;
+}
+
+.text_mtn_blue {
+    color: #006690;
+}
+
+.box_shaddow {
+    box-shadow: 10px, 0, 0, 10 rgba(0, 102, 144, 0.28);
+}
+.w-200 {
+    margin-left: 18px;
+    width: 200px;
+}
+.radius-5 {
+    border-radius: 5px;
+    font-weight: bold;
+}
+.custum-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 5px #000;
+}
+.forgot-pass-form {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 5px #000;
+    width: 500px;
+}
